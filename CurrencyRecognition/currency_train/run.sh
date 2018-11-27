@@ -3,8 +3,8 @@
 # The script expects path to directory containing training set. Images belonging to same class should be in same directory in the training set.
 
 
-vocabSize=10000;
-numImagesToTrain=400;
+vocabSize=100;
+numImagesToTrain=20;
 
 if [ -d "currency_train_output" ]; then
 	rm -r currency_train_output;
